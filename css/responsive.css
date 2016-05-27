@@ -13,6 +13,7 @@ div.one-third-last {
 	padding: 20px 0 0 0;
 }
 
+
 @media screen and (max-width: 500px) {
 	
 	div.mobile-collapse {
@@ -29,6 +30,7 @@ div.one-third-last {
 		width: 50%; 
 		font-size: 80%; 
 	}
+	
 }
 
 @media screen and (max-width: 620px) {
@@ -44,6 +46,8 @@ div.one-third-last {
 }
 
 @media screen and (max-width: 480px) {
+	
+	
 	
 	div.nav ul li {
 		float: none; 
@@ -75,5 +79,6 @@ div.one-third-last {
 		font-size: 81%;
 		cursor: pointer; 
 	}
+	
 }
 	
