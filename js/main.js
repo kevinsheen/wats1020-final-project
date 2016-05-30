@@ -1,11 +1,29 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
 	
-	jQuery(".menu-trigger").click(function() {
+	$(".menu-trigger").click(function() {
 		
-		jQuery(".nav").slideToggle(400, function() {
-			jQuery(this).toggleClass("nav-expanded").css('display', '');
+		$(".nav").slideToggle(400, function() {
+			$(this).toggleClass("nav-expanded").css('display', '');
 		});
 	
 	});
 
-});
+
+
+$('.view-details').on('click', function(event){ 
+	   console.log(event);
+	   var targetElement = event.target; 
+	   var container = targetElement.parentElement.parentElement; 
+	   $(container).find('.details').each(function(index, el){    
+	      if ($(el).is(':visible')){
+			  $(el).fadeOut();		
+		console.log(event);
+			  targetElement.innerText = "Find out more about 'em!";
+		  } else {
+			  $(el).fadeIn(); 
+			  targetElement.innerText = "Take a hike, text.";
+		  }
+	   });
+	});
+	
+}); 

@@ -1,4 +1,14 @@
 
+h1 {
+	
+ 	color: #131313;
+ 	font-size: 100px; 
+	text-align: center;
+ 	text-transform: uppercase;
+ 	text-shadow: #2c2c2c 3px 3px 5px;
+ }
+
+
 p {
 	margin: 0 0 1em 0;
 	font-size: 93%;
@@ -117,3 +127,8 @@ div.footer {
 .menu-trigger {
 	display: none;
 }
+
+.details {
+    display: none;
+}
+
