@@ -1,3 +1,5 @@
+//Navbar Mobile
+
 $(document).ready(function() {
 	
 	$(".menu-trigger").click(function() {
@@ -8,7 +10,7 @@ $(document).ready(function() {
 	
 	});
 
-
+//Show/Hide content for bands
 
 $('.view-details').on('click', function(event){ 
 	   console.log(event);
@@ -25,6 +27,8 @@ $('.view-details').on('click', function(event){
 		  }
 	   });
 	});
+	
+	//Initialize Map, and fixed location
 	
 	var map = L.map( 'map', {
     center: [47.6135934, -122.3443024],
@@ -55,6 +59,8 @@ $('.view-details').on('click', function(event){
 	L.control.layers(mapLayers).addTo(map);
 	satLayer.addTo(map);
 	
+	//add markers and popup info
+	
 	var marker = L.marker([47.6135934, -122.3443024]).addTo(map);
 	marker.bindPopup("<b>Welcome to The Crocodile!</b><br>Est. 1991.");
 	
@@ -63,5 +69,7 @@ $('.view-details').on('click', function(event){
 	
 	var marker = L.marker([47.6132851, -122.3313795]).addTo(map);
 	marker.bindPopup("<b>Welcome to The Paramount Theatre!</b><br>Est. 1928.");
+	
+	//$('.fb').attr('href','http://www.facebook.com'); Testing out links in JS 
 	
 }); 

@@ -96,7 +96,7 @@ div.side {
 }
 
 div.info-box-a {
-	background-color: #33CC33;
+	background-color: #33CCFF;
 	padding: 20px;
 	font-size: 13px;
 	margin: 0 0 15px 0; 
@@ -104,14 +104,14 @@ div.info-box-a {
 }
 
 div.info-box-b {
-	background-color: #A00000 ;
+	background-color: #FFCCFF ;
 	padding: 20px;
 	font-size: 13px;
 	margin: 0 0 15px 0;
 }
 
 div.footer {
-	background-color: #3f3f3f;
+	background-color: #CC6699;
 	color: #FFF;
 	padding: 15px 0;
 	text-align: center;
