@@ -99,7 +99,8 @@ div.info-box-a {
 	background-color: #33CC33;
 	padding: 20px;
 	font-size: 13px;
-	margin: 0 0 15px 0;
+	margin: 0 0 15px 0; 
+	
 }
 
 div.info-box-b {
@@ -132,3 +133,10 @@ div.footer {
     display: none;
 }
 
+li {
+	display: inline-block; 
+}
+
+#map { 
+	height: 180px; 
+}

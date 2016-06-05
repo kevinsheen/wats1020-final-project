@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="seattle music scene">
   
-  
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
   <link type="text/css" rel="stylesheet" href="css/main.css">
   <link type="text/css" rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 960px)">
   <link rel="stylesheet" href="css/bootstrap.min.css"> 
@@ -26,9 +26,9 @@
 	  <ul class="clearfix">
 		  <li><a href="#">Home</a></li>
 		  <li><a href="#bands">Bands</a></li>
-		  <li><a href="#">Venues</a></li>
+		  <li><a href="#about">About Us</a></li>
 		  <li><a href="#">Contact</a></li>
-		  <li><a href="#">About Us</a></li>
+		  <li><a href="#map">Venues</a></li>
 	  </ul>
 	  </div></div>
   
@@ -116,10 +116,13 @@
 		
 	</div> 
 		
+	  
+	  
+	  
 		<div class="two-columns clearfix">
 			
 		
-			<div class="main mobile-collapse">
+			<div class="main mobile-collapse" id="about">
 				
 				<h2>Major Content For Site</h2>
 				
@@ -144,9 +147,13 @@
 				
 				
 				<div class="info-box-a">
-					<h4>Important Content</h4>
-					<p>This content must be displayed when sizing down to a 480px/smart phone display.
-					   We want something specific and beneficial for users/visitors here.</p>
+					<h4>Track us on Social Media!</h4>
+				<ul style="list-style-type:none" class="socialmedia">
+					<li class="fb"></li><img src="design/facebookicon.png" alt="facebook" width="60" height="60" border="0">
+					<li class="tw"></li><img src="design/TwitterIcon.png" alt="twitter" width="60" height="60" border="0">
+					<li class="ig"></li><img src="design/instagramicon.png" alt="instagram" width="60" height="60" border="0">
+				</ul>
+	
 				</div>
 				
 				
@@ -169,6 +176,9 @@
 		
 	</div></div>
 	
+		<div><h2>Popular Seattle Venues</h2></div>
+		<div id="map"></div>
+		
 	
 	<div class="footer"><div class="section-inner">
 		
@@ -179,7 +189,7 @@
   <script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-2.2.4.js"><\/script>')</script>
 	<script src="js/vendor/bootstrap.min.js"></script>
-
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
     <script src="js/main.js"></script>
 	
 </body>
